@@ -1,7 +1,9 @@
 package log
 
 import (
-	log "code.google.com/p/log4go"
+	//log "code.google.com/p/log4go"
+	//skip gfw 
+	log "github.com/kissthink/log4go"
 	"fmt"
 )
 
