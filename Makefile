@@ -19,7 +19,7 @@ client: deps
 assets: client-assets server-assets
 
 bin/go-bindata:
-	GOOS="" GOARCH="" go get github.com/jteeuwen/go-bindata/go-bindata
+	GOOS="" GOARCH="" go get github.com/jteeuwen/go-bindata
 	mkdir bin
 	cp /usr/local/go/bin/go-bindata  ./bin/
 
