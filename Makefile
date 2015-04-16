@@ -20,7 +20,7 @@ assets: client-assets server-assets
 
 bin/go-bindata:
 	GOOS="" GOARCH="" go get github.com/kissthink/go-bindata/go-bindata
-	mkdir bin
+	#mkdir bin
 	#cp /usr/local/go/bin/go-bindata  ./bin/
 	cp $(GOBIN)/go-bindata  ./bin/ 
 
